@@ -2,12 +2,11 @@ def main():
 
     N = int(input('Enter the number N: '))
     result = []
-
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+    for i in range(N + 1):
+        result.append(2 ** i)
+    
+    print("Powers of 2 from 2^0 to 2^{}:".format(N))
+    print(result)
 
     ########################################
     # Do not delete the return statement
